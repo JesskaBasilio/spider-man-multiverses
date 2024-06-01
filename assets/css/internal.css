@@ -22,3 +22,24 @@
   background-color: gray;
   padding-left: 30px;
 }
+
+.navigator {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.navigator ul li {
+  margin: 60px 0;
+}
+
+.navigator ul li:first-child {
+  margin-top: 0;
+}
+
+.navigator ul li:last-child {
+  margin-bottom: 0;
+}
