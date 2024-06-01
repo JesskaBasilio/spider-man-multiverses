@@ -2,6 +2,9 @@
 @import url('global.css');
 @import url('components/_navigator.css');
 @import url('components/_pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
+
 .s-wrapper {
   display: flex;
   height: 100vh;
@@ -41,6 +44,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-top: 130px;
 }
 
 .s-wrapper .s-main-content .s-logo img {
@@ -63,6 +67,16 @@
 
 .s-wrapper .s-main-content .s-description .pills {
   margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul {
+  display: flex;
+  flex-direction: row;
 }
 
 
