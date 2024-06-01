@@ -7,6 +7,8 @@
 width: 100px;
   height: 100%;
 ```
+
+O View Port (vh) é relativa à tela que vc está utilizando, é a parte que vc está vendo do HTML.
 </p>
 
 ### Estilizando a navegação da página
@@ -31,6 +33,14 @@ Portanto o Código no CSS para realizar o pseudo-elemento é: .navigator::before
 Significa que o elemento vai para tras de outro elemento. Se fosse after, o elemento iria para frente de outro elemento.
 
 Quando o código é declarado com apenas dois pontos uma única vez, chamamos de pseudo-classe:.navigator:before. 
+</p>
+
+### Página Interna
+
+<p>
+Sobrepondo e fixando o navegador na lateral da página.
+
+Dividindo o Main da página em duas divs, uma top e outra bottom.
 </p>
 
 
