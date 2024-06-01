@@ -22,4 +22,17 @@ e `navigator
 
 </p>
 
+### Pseudo-Elemento
+
+<p>
+O pseudo-elemento é criado dentro da página, na classe declarada dentro do html, inserida dentro css.
+
+Portanto o Código no CSS para realizar o pseudo-elemento é: .navigator::before{ }
+Significa que o elemento vai para tras de outro elemento. Se fosse after, o elemento iria para frente de outro elemento.
+
+Quando o código é declarado com apenas dois pontos uma única vez, chamamos de pseudo-classe:.navigator:before. 
+</p>
+
+
+
 </div>
