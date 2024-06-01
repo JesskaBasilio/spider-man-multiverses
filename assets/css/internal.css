@@ -1,7 +1,7 @@
 @import url('reset.css');
 @import url('global.css');
 @import url('components/_navigator.css');
-
+@import url('components/_pills.css');
 .s-wrapper {
   display: flex;
   height: 100vh;
@@ -47,6 +47,22 @@
   margin-top: 50px;
   margin-left: 0;
   margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content .s-description {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.s-wrapper .s-main-content .s-description .s-description__text p{
+  color: white;
+  line-height: 170%;
+}
+
+.s-wrapper .s-main-content .s-description .pills {
+  margin-bottom: 20px;
 }
 
 
