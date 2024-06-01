@@ -1,3 +1,25 @@
 # Pages
 
 ## Spiderman (Tobey Maguire)
+
+### Resposividade
+<p> Na estilização em CSS, trabalhamos com a propriedade `height: 80vh;` isso quer dizer que o `nav` ali trabalhado vai ocupar somente 80% do navegador. No caso, vai ocupar 80% de uma `div` pré-definida em ```
+width: 100px;
+  height: 100%;
+```
+</p>
+
+### Estilizando a navegação da página
+
+<p>
+Foi colocado duas divs, uma para a coluna da esquerda e outra na direita. A coluna da esquerda é uma lateral com apenas 100px de largura enquanto que a coluna da direita envolve o restante da página.
+</p>
+
+### Tratando a Pseudo-classe
+
+<p>A pseudo-classe foi feita para retirar a margem em excesso dos números nas laterais. Representado no código por `.navigator ul li:first-child`
+e `navigator 
+
+</p>
+
+</div>
