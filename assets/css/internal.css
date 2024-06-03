@@ -12,6 +12,11 @@
   background-color: aqua;
 }
 
+.s-wrapper video {
+  width: 100%;
+  position: fixed;
+}
+
 .s-wrapper .s-left-column {
   width: 100px;
   height: 100%;
@@ -28,8 +33,8 @@
 .s-wrapper .s-main-content {
   width: 100%;
   height: 100%;
-  background-color: gray;
   padding-left: 130px;
+  position: relative;
 }
 
 .s-wrapper .s-main-content__top {
