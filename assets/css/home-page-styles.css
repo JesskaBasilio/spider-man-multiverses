@@ -43,15 +43,29 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    perspective: 3000px;
 }
 
 .s-card {
     border: 0.5rem solid #fff;
-    width: calc(100% / 3 - 8%);
-    height: 70vh;
-    position: relative;
+    width: 90%;
+    height: 54vh;
+    position: absolute;
     transition: filter .5s ease-in-out;
 }
+
+.s-card:nth-child(1) {
+    transform: rotateY(0deg) translateZ(45vw);
+}
+
+.s-card:nth-child(2) {
+    transform: rotateY(120deg) translateZ(45vw);
+}
+
+.s-card:nth-child(3) {
+    transform: rotateY(240deg) translateZ(45vw);
+}
+
 
 .s-card__background {
     width: 100%;
@@ -81,11 +95,13 @@ body::before {
 }
 
 .s-controller {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    bottom: 1.5rem;
+    width: 100%;
 }
 
 .s-controller__button {
@@ -161,4 +177,11 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
 
 .s-card--hovered .s-card__title {
     bottom: 50%;
+}
+
+.s-cards-caroussel {
+    display: flex;
+    justify-content: center;
+    width: calc(100vw / 3 - 10%);
+    transform-style: preserve-3d;
 }
