@@ -6,7 +6,7 @@
 ## Quem não gosta do mundo Marvel não é mesmo?
 <p>Este projeto foi elaborado com o intuituo de mostrar os diferentes Spider-Man de cada geração. É um projeto divertido que requer atenção aos detalhes e muito gostoso de codar.<br> Aqui temos três atores que participaram dos filmes: <br> 
 <ul>
-<li>Tobey Maquire</li>
+<li>Tobey Maguire</li>
 <li>Tom Holland</li>
 <li>Andrew Garfield</li>
 </ul>
