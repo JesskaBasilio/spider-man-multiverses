@@ -48,8 +48,8 @@ body::before {
 
 .s-card {
     border: 0.5rem solid #fff;
-    width: 90%;
-    height: 54vh;
+    width: 100%;
+    height: 70vh;
     position: absolute;
     transition: filter .5s ease-in-out;
 }
@@ -184,4 +184,5 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
     justify-content: center;
     width: calc(100vw / 3 - 10%);
     transform-style: preserve-3d;
+    transition: transform 0.4s ease-in;
 }
