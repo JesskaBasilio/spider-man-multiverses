@@ -1,11 +1,12 @@
 # Spider-Man Multiversos
 
-![alt text](image.png)
+![Screenshot_1](https://github.com/JesskaBasilio/spider-man-multiverses/assets/152433983/a2d19a05-1862-45b8-abe8-d08401b60e3c)
+
 
 ## Quem não gosta do mundo Marvel não é mesmo?
 <p>Este projeto foi elaborado com o intuituo de mostrar os diferentes Spider-Man de cada geração. É um projeto divertido que requer atenção aos detalhes e muito gostoso de codar.<br> Aqui temos três atores que participaram dos filmes: <br> 
 <ul>
-<li>Tobey Maquire</li>
+<li>Tobey Maguire</li>
 <li>Tom Holland</li>
 <li>Andrew Garfield</li>
 </ul>
