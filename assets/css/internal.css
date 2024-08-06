@@ -1,9 +1,9 @@
-@import url('reset.css');
-@import url('global.css');
-@import url('components/navigator.css');
-@import url('components/pills.css');
-@import url('components/link-button.css');
-@import url('components/gallery.css');
+@import url('../../assets/css/reset.css');
+@import url('../../assets/css/global.css');
+@import url('../../assets/css/components/navigator.css');
+@import url('../../assets/css/components/pills.css');
+@import url('../../assets/css/components/link-button.css');
+@import url('../../assets/css/components/gallery.css');
 
 .s-wrapper {
   display: flex;
@@ -18,13 +18,13 @@
 }
 
 .s-wrapper .s-left-column {
-  width: 100px;
+  width: 6rem;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  padding-right: 50px;
+  padding-right: 3.125rem;
   top: 0;
   left: 0;
   z-index: 1;
@@ -38,7 +38,7 @@
 }
 
 .s-wrapper .s-main-content__top {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -46,30 +46,30 @@
 }
 
 .s-wrapper .s-main-content__bottom {
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-top: 110px ;
-
 }
 
 .s-wrapper .s-main-content .s-logo img {
-  margin-top: 5px;
+  margin-top: 0.625rem;
   margin-left: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0.625rem;
 }
 
 .s-wrapper .s-main-content .s-description {
   background-color: rgba(0, 0, 0, .7);
-  max-width: 60%;
-  padding: 15px;
-  border-radius: 10px;
+  max-width: 70%;
+  padding: .625rem;
+  margin: 0;
+  border-radius: 1rem;
 }
 
 .s-wrapper .s-main-content .s-description .s-description__text p{
   color: white;
-  line-height: 170%;
+  line-height: 130%;
+  padding: 0.6rem;
 }
 
 .s-wrapper .s-main-content .s-description .pills {
@@ -77,18 +77,18 @@
 }
 
 .s-wrapper .s-main-content .s-links {
-  padding: 20px;
+  padding: 5px;
   padding-left: 0;
-  margin-bottom: 5px;
 }
 
 .s-wrapper .s-main-content .s-links ul {
   display: flex;
   flex-direction: row;
+  margin-bottom: 6rem;
 }
 
 .s-spiderman-01-01 {
-  background-image: url('../images/spiderman-tobey/movie-01/background.png');
+  background-image: url('../../assets/images/spiderman-tobey/movie-01/background.png');
   background-size: cover;
 }
 
